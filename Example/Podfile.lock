@@ -1,0 +1,27 @@
+PODS:
+  - JKToast (0.1.0):
+    - SnapKit (~> 5.6)
+  - SnapKit (5.6.0)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - JKToast (from `../`)
+  - SwiftGifOrigin
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SwiftGifOrigin
+
+EXTERNAL SOURCES:
+  JKToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKToast: e0c431bf41f5d315999b78a75b27b08b5739f7a1
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: 61cb05c04e211f24c03fd9bd433534b65596c407
+
+COCOAPODS: 1.11.3
