@@ -60,15 +60,15 @@ class ViewController: UIViewController {
         let currentContent = contentList[selectedContentIndex]
         
         if let _ = currentContent as? ToastMessageContent {
-            jk_Toast.show(content: ToastMessageContent(message: "文本消息"), position: selectedPosition, retainTime: selectedTime)
+            jkt.show(content: ToastMessageContent(message: "文本消息"), position: selectedPosition, retainTime: selectedTime)
         }
         if let _ = currentContent as? ToastImageContent {
-            jk_Toast.show(content: ToastImageContent(image: UIImage.gif(name: "hud_loading")), position: selectedPosition, retainTime: selectedTime)
+            jkt.show(content: ToastImageContent(image: UIImage.gif(name: "hud_loading")), position: selectedPosition, retainTime: selectedTime)
         }
     }
     
     @objc func hideToast() {
-        jk_Toast.hide()
+        jkt.hide()
     }
     
     lazy var table: UITableView = {
